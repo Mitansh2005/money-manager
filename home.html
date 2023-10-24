@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="home.css">
+  <title>Money Manger</title>
+</head>
+<body>
+  <div class="nav-bar">
+    <nav>
+      <div class="left-section">
+      <button class="inputs">Account</button>
+      <button class="Total">Totals</button>
+    </div>
+    <div class="right-section">
+      <h1 class="logo">Money Manager</h1>
+    </div>
+    </nav>
+  </div>
+  <div class="entire">
+    <div class="entry">
+      <label class="reason-label"> Enter the Reason:</label>
+      <input type="text" class="reason" placeholder='Enter the reason' onkeyup="this.value = this.value.toUpperCase();">
+      <label class="time-label">Enter the time:</label>
+      <input type="date" class="time" placeholder="Enter the time">
+      <label  class="amount-label">Enter the amount</label>
+      <input type="number" class="amount" placeholder="Enter the amount here ">
+   <ul>
+        <li class="submit">
+          submit
+          <span></span><span></span><span></span><span></span>
+        </li>
+      </ul>
+        </div>
+  </div>
+<script type="module" src="home.js"></script>
+
+</body>
+</html>
